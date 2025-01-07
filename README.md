@@ -1,2 +1,2 @@
 # Projects
-<H1>This is my GitHub repo where i will be storing all my solo projects</H1>
+<H2>This is my GitHub repo where i will be storing all my solo projects</H2>
