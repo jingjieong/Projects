@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Web-Browser Sudoku Solver</title>
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+    
+    <h1>Sudoku Solver</h1>
+    <input type="button" value="Solve" onclick="solve()">
+    <input type="button" value="Clear" onclick="cleargrid()">
+    <div class="grid" id="sudoku-grid">
+        <div>
+            <span id="C00"onclick="giveInput(id)"></span>
+            <span id="C01"onclick="giveInput(id)"></span>
+            <span id="C02"onclick="giveInput(id)"></span>
+            <span id="C10"onclick="giveInput(id)"></span>
+            <span id="C11"onclick="giveInput(id)"></span>
+            <span id="C12"onclick="giveInput(id)"></span>
+            <span id="C20"onclick="giveInput(id)"></span>
+            <span id="C21"onclick="giveInput(id)"></span>
+            <span id="C22"onclick="giveInput(id)"></span>
+            </div>
+            
+            <div>
+            <span id="C03"onclick="giveInput(id)"></span>
+            <span id="C04"onclick="giveInput(id)"></span>
+            <span id="C05"onclick="giveInput(id)"></span>
+            <span id="C13"onclick="giveInput(id)"></span>
+            <span id="C14"onclick="giveInput(id)"></span>
+            <span id="C15"onclick="giveInput(id)"></span>
+            <span id="C23"onclick="giveInput(id)"></span>
+            <span id="C24"onclick="giveInput(id)"></span>
+            <span id="C25"onclick="giveInput(id)"></span>
+            </div>
+
+            <div>
+            <span id="C06"onclick="giveInput(id)"></span>
+            <span id="C07"onclick="giveInput(id)"></span>
+            <span id="C08"onclick="giveInput(id)"></span>
+            <span id="C16"onclick="giveInput(id)"></span>
+            <span id="C17"onclick="giveInput(id)"></span>
+            <span id="C18"onclick="giveInput(id)"></span>
+            <span id="C26"onclick="giveInput(id)"></span>
+            <span id="C27"onclick="giveInput(id)"></span>
+            <span id="C28"onclick="giveInput(id)"></span>
+            </div>
+
+            <div>
+            <span id="C30"onclick="giveInput(id)"></span>
+            <span id="C31"onclick="giveInput(id)"></span>
+            <span id="C32"onclick="giveInput(id)"></span>
+            <span id="C40"onclick="giveInput(id)"></span>
+            <span id="C41"onclick="giveInput(id)"></span>
+            <span id="C42"onclick="giveInput(id)"></span>
+            <span id="C50"onclick="giveInput(id)"></span>
+            <span id="C51"onclick="giveInput(id)"></span>
+            <span id="C52"onclick="giveInput(id)"></span>
+            </div>
+            
+            <div>
+            <span id="C33"onclick="giveInput(id)"></span>
+            <span id="C34"onclick="giveInput(id)"></span>
+            <span id="C35"onclick="giveInput(id)"></span>
+            <span id="C43"onclick="giveInput(id)"></span>
+            <span id="C44"onclick="giveInput(id)"></span>
+            <span id="C45"onclick="giveInput(id)"></span>
+            <span id="C53"onclick="giveInput(id)"></span>
+            <span id="C54"onclick="giveInput(id)"></span>
+            <span id="C55"onclick="giveInput(id)"></span>
+            </div>
+
+            <div>
+            <span id="C36"onclick="giveInput(id)"></span>
+            <span id="C37"onclick="giveInput(id)"></span>
+            <span id="C38"onclick="giveInput(id)"></span>
+            <span id="C46"onclick="giveInput(id)"></span>
+            <span id="C47"onclick="giveInput(id)"></span>
+            <span id="C48"onclick="giveInput(id)"></span>
+            <span id="C56"onclick="giveInput(id)"></span>
+            <span id="C57"onclick="giveInput(id)"></span>
+            <span id="C58"onclick="giveInput(id)"></span>
+            </div>
+
+            <div>
+            <span id="C60"onclick="giveInput(id)"></span>
+            <span id="C61"onclick="giveInput(id)"></span>
+            <span id="C62"onclick="giveInput(id)"></span>
+            <span id="C70"onclick="giveInput(id)"></span>
+            <span id="C71"onclick="giveInput(id)"></span>
+            <span id="C72"onclick="giveInput(id)"></span>
+            <span id="C80"onclick="giveInput(id)"></span>
+            <span id="C81"onclick="giveInput(id)"></span>
+            <span id="C82"onclick="giveInput(id)"></span>
+            </div>
+            
+            <div>
+            <span id="C63"onclick="giveInput(id)"></span>
+            <span id="C64"onclick="giveInput(id)"></span>
+            <span id="C65"onclick="giveInput(id)"></span>
+            <span id="C73"onclick="giveInput(id)"></span>
+            <span id="C74"onclick="giveInput(id)"></span>
+            <span id="C75"onclick="giveInput(id)"></span>
+            <span id="C83"onclick="giveInput(id)"></span>
+            <span id="C84"onclick="giveInput(id)"></span>
+            <span id="C85"onclick="giveInput(id)"></span>
+            </div>
+
+            <div>
+            <span id="C66"onclick="giveInput(id)"></span>
+            <span id="C67"onclick="giveInput(id)"></span>
+            <span id="C68"onclick="giveInput(id)"></span>
+            <span id="C76"onclick="giveInput(id)"></span>
+            <span id="C77"onclick="giveInput(id)"></span>
+            <span id="C78"onclick="giveInput(id)"></span>
+            <span id="C86"onclick="giveInput(id)"></span>
+            <span id="C87"onclick="giveInput(id)"></span>
+            <span id="C88"onclick="giveInput(id)"></span>
+            
+        </div>
+       </div>
+
+    
+    
+    
+</body>
+</html>
