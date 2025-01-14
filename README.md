@@ -1,2 +1,3 @@
-# Projects
-<H2>This is my GitHub repo where i will be storing all my solo projects</H2>
+<H2>Online Sudoku Solver built using html, css and Javascript</H2>
+<a href="https://jingjieong.github.io/Projects/main.html">Click here for Sudoku Solver</a>
+
