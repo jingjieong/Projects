@@ -48,7 +48,7 @@ function giveInput(id){
     let x=numpart[0];
     let y=numpart[1];
     console.log(x,y);
-    while((userinput>9 || userinput<1) || !ifSafe(x,y,userinput) ){
+    while(((userinput>9 || userinput<1) || !ifSafe(x,y,userinput)) && userinput!=null){
         userinput=prompt("invalid number, please enter a number 1-9");
         
     }
